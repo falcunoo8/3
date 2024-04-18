@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 // [Windows] Press "Win + R", input cmd and run:  Powershell -NoExit -Command "[guid]::NewGuid()"
 let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 
-const proxyIPs = ['cdn.xn--b6gac.eu.org','cdn-all.xn--b6gac.eu.org' , 'cdn-b100.xn--b6gac.eu.org' , 'edgetunnel.anycast.eu.org' , 'cdn.anycast.eu.org' , 'workers.bestip.one'];
+const proxyIPs = ['cdn.xn--b6gac.eu.org','cdn.falcunar.asso.eu.org','cdn-all.xn--b6gac.eu.org' , 'cdn-b100.xn--b6gac.eu.org' , 'edgetunnel.anycast.eu.org' , 'cdn.anycast.eu.org' , 'workers.bestip.one'];
 
 let proxyIP = '193.29.105.129'
 
